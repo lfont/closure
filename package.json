@@ -1,0 +1,8 @@
+{
+    "name": "closure",
+    "version": "0.1.0",
+    "author": "Loïc Fontaine (www.twitter.com/loic_fontaine)",
+    "description": "A nodejs wrapper for calling Google closure tools.",
+    "main": "closure.js",
+    "license": "MIT"
+}
