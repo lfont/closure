@@ -1,11 +1,13 @@
 Closure
 =======
 
-A nodejs wrapper for calling Google closure tools.
+A nodejs wrapper for calling Google Closure Tools.  
 This module can be use for writing build scripts for projects written with Google  
-Closure Tools.
+Closure Tools.  
 For the moment, it only contains a wrapper for closure-stylesheets and plovr.  
 
+    var closure = require('../closure').setup({ toolsDir: '../bin' });
+    
     closure.stylesheets(styleSheetsDir)
         .prettyPrint()
         .outputFile(path.join(buildDir, 'style.css'))
